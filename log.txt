@@ -1,9 +1,11 @@
+http://avenir.ro/create-cms-using-codeigniter-3/
 Log ..
 	-step by step configuration ..
 
 In Proses ..
+	- step 2
 
 Next Proses ..
-http://avenir.ro/codeigniter-tutorials/no-more-my_controller-how-you-can-create-more-than-one-base-controller/
+	- step 3
 
 Info !!!
