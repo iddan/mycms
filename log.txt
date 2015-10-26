@@ -1,11 +1,21 @@
 http://avenir.ro/create-cms-using-codeigniter-3/
 Log ..
 	-step by step configuration ..
+	- step 1 s/d 3.2 DONE !!
 
 In Proses ..
-	- step 2
+	- 
+
+	* SESUDAH NGODING USAHAKAN LANGSUNG PUSH KE GIT-REPOSITORY(UPLOAD KE GITHUB)
+	$ git status
+	$ git add .
+	$ git commit -m "penamaan commit" 
+	$ git push
+	$ git status
+
+LAST git push : step 3.2
 
 Next Proses ..
-	- step 3
+	- step 3.3
 
 Info !!!

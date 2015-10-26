@@ -32,6 +32,18 @@ class Admin_Controller extends MY_Controller {
   	function __construct()
   	{
     	parent::__construct();
+        $this->load->library('ion_auth');
+        if (!$this->ion_auth->logged_in())
+        {
+          //redirect them to the login page
+          redirect('admin/user/login', 'refresh');
+        }
+        $this->data['current_user'] = $this->ion_auth->user()->row();
+        $this->data['current_user_menu'] = '';
+        if($this->ion_auth->in_group('admin'))
+        {
+          $this->data['current_user_menu'] = $this->load->view('templates/_parts/user_menu_admin_view.php', NULL, TRUE);
+        }
     	$this->data['page_title'] = 'My CMS - Dashboard';
   	}
 
