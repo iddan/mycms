@@ -42,7 +42,7 @@
 									<?php
 									    }
 								    ?>
-								      	<li><a href="#">Profile page</a></li>
+								      	<li><a href="<?php echo site_url('admin/user/profile'); ?>">Profile page</a></li>
 								      	<li class="divider"></li>
 								      	<li><a href="<?php echo site_url('admin/user/logout'); ?>">Logout</a></li>
 								    </ul>

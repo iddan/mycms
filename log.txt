@@ -1,7 +1,7 @@
 http://avenir.ro/create-cms-using-codeigniter-3/
 Log ..
 	-step by step configuration ..
-	- step 1 s/d 3.2 DONE !!
+	- step 1 s/d 3.4 DONE !!
 
 In Proses ..
 	- 
@@ -13,9 +13,9 @@ In Proses ..
 	$ git push
 	$ git status
 
-LAST git push : step 3.2
+LAST git push : step 3.4
 
 Next Proses ..
-	- step 3.3
+	- step 4
 
 Info !!!
